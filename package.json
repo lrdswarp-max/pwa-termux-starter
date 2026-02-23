@@ -7,7 +7,8 @@
     "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "sync:cloud": "bash scripts/sync-cloud.sh"
   },
   "dependencies": {
     "@supabase/ssr": "^0.8.0",
